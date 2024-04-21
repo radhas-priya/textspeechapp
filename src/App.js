@@ -1,17 +1,18 @@
-import {Route , Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import React from "react";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
-import About from "./Components/About";
+import Footer from "./Components/Footer";
+
 function App() {
   return (
-   <>
-   <Navbar/>
-   <Routes>
-   <Route path="/" element ={<Main heading='listen the text you entered'></Main>}/>
-   <Route path="/About" element ={<About></About>}/>
-   </Routes>
-   </>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Main heading='listen the text you entered' />} />
+      </Routes>
+      <Footer/>
+    </>
   );
 }
 

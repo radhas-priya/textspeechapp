@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.btn{
+  background-color: #81f584; /* Green background color */
+  border: none;
+  border-radius:38px;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size:2rem;
+  font-family:'Merriweather';
+  box-shadow: 7px 12px 43px 2px #000000, 5px 5px 10px 1px #000000;
+  transition: background-color 0.3s ease; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn:hover {
+  background-color: #000000;
+  color:white;
+  
+}
+
+
+.divbuttons{
+  margin:15px 4px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.heading{
+  font-family:'Merriweather';
+  padding:5px 12px;
+  /* margin-top:12px; */
+  letter-spacing:5px;
+  text-transform:uppercase;
+  filter: drop-shadow(5px 5px 10px #fdfff4);
+   color:white;
+   
+
+}
+.textbox{
+  border:none;
+  display:flex;
+  justify-content :center;
+  align-items:center;
+  background-color:rgb(2, 17, 65);
+  color:rgb(250, 246, 246);
+  font-family:'Merriweather';
+  letter-spacing:3px;
+  font-size:1.2rem;
+  font-weight:bolder;
+  height:70vh;
+  width:98vw;
+  margin-top:6px;
+  
+
+}
+.divbox{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-radius:20px;
+}
+
+.main-page{
+  background-color:black;
+  height:100vh;
+
+}
+#navbar-id{
+  background-color:rgb(66, 58, 58);
+  color:white;
+  margin-bottom:0px;
+  border-bottom:2px solid white;
+
+}
+#nav-link-id{
+  font-size:1.7rem;
+  color:white;
+  font-family:"Merriweather";
+  margin-left:12px;
+  padding:12px;
+
+}
+.page-footer{
+  background-color: black;
+  color:white;
+  font-size:1.3rem;
+  text-align:center;
+  font-family: 'Merriweather';
 }
